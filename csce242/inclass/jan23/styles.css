@@ -1,0 +1,54 @@
+body{
+    background-image:url(images/dancingcows.jpg)
+}
+
+#content{
+    background: lightyellow;
+    width: 75%;
+    margin:auto;
+    padding: 10px;
+    border-radius:15px; 
+    box-shadow: rgb(60, 56, 24);
+}
+
+#main-nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+#main-nav a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 5px;
+    color: #342C28;
+    border-bottom: 2px solid transparent;
+}
+
+#main-nav a:hover{
+    border-bottom: 5px solid #000000;
+}
+
+#cow1,#cow2{
+    border:5px solid transparent;
+}
+
+#cow1:hover{ 
+    border: 5px solid yellow;
+  }
+
+#cow2:hover{ 
+    border: 5px dotted orange;
+  }
+
+/*
+#main-nav a{
+    background: green;
+    color: white;
+    text-decoration:none;
+    padding:10px;
+}
+
+#main-nav a:hover{
+    background: #FEF9D4
+}
+*/

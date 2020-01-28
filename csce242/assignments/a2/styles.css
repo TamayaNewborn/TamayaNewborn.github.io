@@ -1,0 +1,47 @@
+body{
+    background-image:url(pictures/background2.jpg);
+   width: 100%;
+    height: auto;
+    font-family: Helvetica, Arial;
+   
+}
+
+#content{
+    background: lightblue;
+    width: 75%;
+    margin:auto;
+    padding: 10px;
+    border-radius:15px; 
+}
+
+#main-nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+#main-nav a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 5px;
+    color: #342C28;
+    border-bottom: 1px solid transparent;
+}
+
+#main-nav a:hover{
+    border-bottom: 3px solid navy;
+}
+
+
+#pic1:hover{
+    border:5px solid navy;
+
+}
+
+#table{
+    border:3px solid gray;
+    background: #35416B;
+    padding:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
