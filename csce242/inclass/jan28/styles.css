@@ -1,0 +1,56 @@
+/* Styles for Everything */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+   /* margin: 0;     all margin and padding at 0. (doesnt look good) 
+                    you add all the padding yourself later
+    padding: 0;  */
+}
+
+#main-header{
+    background: lightpink;
+    padding: 10px;
+}
+
+#main-content{
+    background: lightgray;
+    
+   /* align-items: flex-start; will have columuns start or stop at same place*/
+}
+
+#main-content h1{
+    text-align: center;
+}
+
+#kitten-cols{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-footer{
+background: lightcyan;
+padding: 10px;
+}
+
+#specialcol{
+    background:pink;
+}
+
+.col1of3{
+    background: lightgreen;
+    padding:10px;
+  /*  flex: 1;   */
+  flex-basis: 30%;
+}
+
+.first-col{
+    background: skyblue;
+   /* flex: 2; /* will be longer then the other flexes */
+}
+
+.col1of3 h2{  /* adding space means inside. h2 is inside col1of3 */
+    color:darkblue;
+}
+
+
+

@@ -1,0 +1,86 @@
+
+
+body{
+    font-family: Helvetica;
+}
+/*
+#main-header{
+    margin: 10px;
+}
+*/
+#main-nav{
+    background: rgb(134, 197, 236);
+    padding: 7px;
+    
+}
+
+.two-cols section{
+    background: rgb(235, 135, 197);
+
+}
+
+.col1of2 section{
+    background: rgb(148, 148, 148) ;
+
+}
+
+.three-nested-cols section{
+    background:rgb(134, 197, 236);
+    text-align: center;
+    padding: 5px;
+}
+
+#main-footer{
+    background: rgb(148, 148, 148);
+    text-align: center;
+}
+
+/* Nav Bar */
+#main-nav li{
+    list-style-type: none;
+    padding: 10px 10px;
+    margin: 0 5px;
+    text-align: center;
+}
+
+#main-nav a{
+    text-decoration: none;
+}
+
+/* For Larger Layouts */
+/* Screen 900px or larger apply these styles */
+@media(min-width: 900px){
+
+    
+    #main-nav ul, .two-cols,  .col1of2 , .threepics{
+         display: flex;
+     }
+
+    #main-nav ul li{
+        flex: 1;
+    }
+
+    .two-cols .main-sidebar{
+        flex: 2;
+    }
+
+.main-content , .main-sidebar , .three-nested-cols h3 , .col1, .col2{
+   margin: 10px;
+   flex: 5;
+}
+
+.col1of2{
+   justify-content: space-evenly;
+   border-style: solid;
+   border-width: thin;
+   border-color: black;
+}
+
+.three-nested-cols {
+    display: flex;
+   margin:5px;
+}
+
+
+
+}
