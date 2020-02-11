@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main-header{
+    text-align: center;
+}
+
+.assignment-cols section{
+    background: rgb(148, 148, 148) ;
+
+}
+
+.three-nested-cols section{
+    background:rgb(209, 224, 68);
+    text-align: center;
+    padding: 5px;
+}
+
+#main-footer{
+    text-align: center;
+    background: rgb(195, 22, 89);
+}
+
+/* For Larger Layouts */
+/* Screen 900px or larger apply these styles */
+@media(min-width: 900px){
+    .assignment-cols{
+        justify-content: space-evenly;
+
+    }
+
+    .three-nested-cols {
+        display: flex;
+       margin:5px;
+    }
+
+    
+}
