@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(182, 170, 170);
+}
+
+.info{
+    background: rgb(46, 226, 211);
+    margin: auto;
+    padding: 20px;
+    width: 700px;
+    border-radius: 35px;
+}
+
+.info label{
+    width:100%;
+    text-align: start;    
+    
+}
+
+.info input:focus {
+    background:rgb(180, 221, 236);
+    color:black;
+}
+
+.info button {
+    padding:5px;
+}
