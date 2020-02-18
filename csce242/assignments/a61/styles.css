@@ -133,4 +133,6 @@ color: white;
      .two-cols section , .six-cols section, #main-nav ul li , .four-cols section , .three-cols section {
          flex: 1;
      }
+
+     
  }

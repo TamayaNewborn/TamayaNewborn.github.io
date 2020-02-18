@@ -1,0 +1,26 @@
+#main-header{
+    background-color: rgb(46, 224, 186);
+
+}
+
+#nav-toggle div {
+    width: 35px;
+    height: 5px;
+    background-color: rgba(241, 234, 234, 0.972);
+    margin:6px 0;
+    
+}
+
+#main-nav{
+    background-color: rgb(104, 101, 101);
+}
+
+#main-nav-items li, a{
+list-style: none;
+text-decoration: none;
+color: white;
+}
+
+.hidden {
+    display:none;
+}
