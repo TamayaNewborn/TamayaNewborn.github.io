@@ -1,0 +1,136 @@
+#main-header{
+    background:rgb(12, 12, 12);
+    
+}
+
+#main-nav ul{
+list-style-type: none;
+padding-left:0;
+color: white
+}
+
+#main-nav a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white
+}
+
+#main-nav a:hover{
+    background-color:  rgba(204,48,64);
+}
+
+#main-nav li {
+    background:black;
+    padding: 10px;
+    margin: 2px 0;
+}
+
+h1{
+    color: white;
+    padding-left: 5px;
+    
+}
+
+#big-words{
+    @font-face { font-family: font; font-weight: bold; src: url('BerlingskeSansXCn-XBb.woff2');}
+    color: rgb(115, 22, 19);
+    font-size: 70px;
+}
+
+#main-paragraph {
+ font-family: BerlingskeSans-Md;
+ font-size: 30px;
+
+}
+
+.pic-titles {
+    color:  rgb(115, 22, 19);
+}
+
+
+/* Nav Bar Toggle */
+#nav-toggle{
+    color: white;
+}
+#nav-toggle div {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin:6px 0;
+    
+}
+
+#line-seperation div{
+    color: grey;
+    width: 80px;
+    height: 5px;
+    margin:6px 0 ;
+
+}
+
+
+.four-cols section {
+    background: white;
+}
+
+.four-cols section:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+.four-cols a{
+    text-decoration: none;
+    color: black;
+}
+
+#main-footer {
+    background-color: rgba(115,19,22);
+}
+
+#top-half {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.diff-sections a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+
+}
+
+#content li:hover{
+background-color: rgba(204,48,64);
+
+}
+
+.diff-sections li{
+    padding: 5px;
+}
+
+#footer2{
+    background-color: black;
+    padding: 5px;
+}
+
+#footer2 a{ 
+text-decoration: none;
+color: white;
+}
+
+#footer2 a:hover{
+    background-color: rgba(241, 19, 19, 0.76);;
+}
+
+/* For Larger Layouts */
+/* Screen 900px or larger apply these styles */
+@media(min-width: 900px){
+    #main-nav ul, .four-cols , #diff-sections {
+         display: flex;
+         padding-left: 10px;
+         margin: 10px;
+     }
+ 
+     .two-cols section , .six-cols section, #main-nav ul li , .four-cols section , .three-cols section {
+         flex: 1;
+     }
+ }

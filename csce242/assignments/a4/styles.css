@@ -4,9 +4,17 @@ body{
 #main-header{
     text-align: center;
 }
+/*
+.assignment-cols{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+*/
 
 .assignment-cols section{
     background: rgb(148, 148, 148) ;
+   /* width: 28%;*/
 
 }
 
