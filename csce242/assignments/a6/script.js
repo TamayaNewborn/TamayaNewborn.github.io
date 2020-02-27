@@ -39,8 +39,14 @@ function isBlank(data, errorSpanId){
     return false;
 }
 
+function orderAges(){
+if(age1 > age2 && age3){
+    displayP.innerHTML = `${name1}`;
+}
+}
+
 const btnDisplay = document.getElementById("btn-display");
-btnDisplay.onclick = displayInfo;
+btnDisplay.onclick = orderAges;
 
 
 function toggleNav() {
