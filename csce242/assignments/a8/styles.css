@@ -27,37 +27,42 @@ body {
     
     margin: 0;
 }
+
 #orange {
     color: rgb(253, 99, 9);
     background: rgb(253, 99, 9);
     margin: 0;
 }
+
 #yellow {
     color: rgb(255, 217, 4);
     background: rgb(255, 217, 4);
     margin: 0;
 }
+
 #green {
     color: rgb(0,128,0);
     background: rgb(0,128,0);
     margin: 0;
 }
+
 #blue {
     color: rgb(16, 13, 236);
     background: rgb(16, 13, 236);
     margin: 0;
 }
+
 #indigo {
     color: rgb(75,0,130);
     background: rgb(75,0,130);
     margin: 0;
 }
+
 #violet {
     color: rgb(238,130,238);
     background:rgb(238,130,238);
     margin: 0;
 }
-
 
 @media(min-width:900px){
     #content {

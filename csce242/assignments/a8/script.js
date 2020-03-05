@@ -61,10 +61,7 @@ function redLine() {
     violet.id = "violet";
     violet.innerHTML = "violet";
     violetLine.append(violet);
-  /*
-    let potOfGold = document.createElement("img");
-    potOfGold.src = `images/potOfGold.png`;
-    rainbow.append(potOfGold);  */
+  
   }
   function rainbowTimer() {
     setTimeout(redLine, 1000);
