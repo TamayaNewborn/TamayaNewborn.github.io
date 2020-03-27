@@ -1,0 +1,76 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background:rgb(206, 109, 5);
+    text-align: center;
+}
+
+.example {
+    background:rgb(12, 12, 12);
+    padding:10px;
+    margin:10px;
+    border-radius:5px;
+    min-height:200px;
+}
+
+.example h1 {
+    text-align: center;
+}
+
+.example label {
+    width:100%;
+    text-align:center;
+    display:block;
+    padding:5px;
+}
+
+.example input {
+    width:100%;
+    display:block;
+    padding:5px;
+}
+
+
+#main-header h1 {
+    text-align:center;
+    color:#fff;
+    font-family: fantasy;
+    font-size: 45px;
+    font-style: italic;
+}
+
+    #content {
+        display:flex;
+        flex-wrap:wrap;
+    }
+
+    .largewidth {
+        width:100%;
+        margin:auto;
+    }
+
+    #breweries-section {
+        display:flex;
+        flex-wrap:wrap;
+    }
+
+    .brewery {
+        width:96%;
+        background:rgb(138, 110, 44);
+        padding:10px;
+        margin:10px;
+    }
+
+    .brewery a {
+        text-decoration: none;
+        color:rgb(206, 109, 5);
+    }
+
+    .brewery a :hover{
+        background-color: rgb(226, 168, 43);
+        margin: auto;
+        width: 20%;
+    }
+  
+
+
+
