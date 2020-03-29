@@ -19,19 +19,6 @@ body {
     text-align:center;
 }
 
-.example label {
-    width:100%;
-    text-align:center;
-    display:block;
-    padding:5px;
-}
-
-.example input {
-    width:100%;
-    display:block;
-    padding:5px;
-}
-
 #main-header h1 {
     color:rgb(8, 8, 8);
 }
@@ -50,19 +37,24 @@ body {
         width:100%;
         margin:auto;
     }
-    
+
     .movies {
         display:flex;
-        border: 2px solid slategray;
-        border-radius:5px;
+        border: 5px solid slategray;
         margin: 10px;
-       /*margin-bottom:20px; */
         padding: 10px;
         background-color: #3B8686;
     }
 
     .movies img {
+        height: 95%;
         width:200px;
+        border: 8px solid rgb(136, 134, 133);
+        transition: transform .2s;
+    }
+
+    .movies img:hover{
+        transform: scale(1.5);
     }
 
 
