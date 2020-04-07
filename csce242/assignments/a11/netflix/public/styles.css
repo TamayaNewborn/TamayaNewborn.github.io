@@ -1,0 +1,26 @@
+h1{
+    color: rgb(255, 0, 55);
+}
+
+body{
+    background-color: rgb(18, 18, 19);
+}
+
+.example{
+    background-color: rgb(13, 14, 13);
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+}
+
+#info1{
+    color: black;
+}
+
+#content{
+    color: rgb(209, 16, 16);
+    display: inline;
+    padding: 20px ;
+    min-width: 50px;  
+    text-align: center;  
+}

@@ -16,7 +16,7 @@ async function showMovies(){
         //movie image
         let moviesImg = document.createElement("IMG");
          moviesImg.classList.add("moviesImg");
-         moviesImg.src = ` https://portiaportia.github.io/csce242/json/images ${movies.img}`;
+         moviesImg.src = ` https://portiaportia.github.io/csce242/json/images/ ${movies.img}`;
          moviesImgSection.append(moviesImg);
          moviesSection.append(moviesImgSection);
     
