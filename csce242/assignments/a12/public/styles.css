@@ -1,0 +1,65 @@
+body {
+    font-family:arial;
+    background-color: #8631d4da;
+}
+
+#artist-list {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.fact {
+    width:30%;
+    background:rgb(9, 52, 70);
+    padding:5px;
+    margin:5px;
+    border-radius: 3px;;
+}
+
+.fact a {
+    text-decoration:none;
+}
+
+.hidden {
+    display:none;
+}
+
+#artist-forms {
+    display:flex;
+}
+
+.artist-form {
+    background:#b87e49;
+    padding:5px;
+    width:45%;
+    margin:5px;
+    border: rgb(202, 201, 200);
+    border-style: dotted;
+    border-radius:3px;
+    text-align: center;
+
+}#artist-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fact{
+    width:30%;
+    background: #947f6c;
+    padding: 5px;
+    margin: 5px; 
+    border-style: solid;
+    border-color: rgba(18, 19, 18, 0.726);
+    border-width:3px;
+    text-align: center;
+
+  
+}
+
+.fact a{
+    text-decoration: none;
+}
+
+.hidden{
+    display: none;
+}
