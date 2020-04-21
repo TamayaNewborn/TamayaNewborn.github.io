@@ -1,0 +1,99 @@
+body {
+    font-family:arial;
+    background-color: #55c7dbda;
+}
+
+#show-list {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.fact {
+    width:30%;
+    background:rgb(9, 52, 70);
+    padding:5px;
+    margin:5px;
+    border-radius: 3px;;
+}
+
+.fact a {
+    text-decoration:none;
+}
+
+.hidden {
+    display:none;
+}
+
+#show-forms {
+    display:flex;
+}
+
+.show-form {
+    background:#f88629;
+    padding:5px;
+    width:45%;
+    margin:5px;
+    border: rgb(251, 248, 62);
+    border-style: dotted;
+    border-radius:3px;
+    text-align: center;
+
+}#show-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fact{
+    width:30%;
+    background: #f32ac7;
+    padding: 5px;
+    margin: 5px; 
+    border-style: solid;
+    border-color: rgba(18, 19, 18, 0.726);
+    border-width:3px;
+    text-align: center;
+
+  
+}
+
+.fact a{
+    text-decoration: none;
+}
+
+.hidden{
+    display: none;
+}
+
+#nav-toggle div {
+    width: 35px;
+    height: 5px;
+    background-color:black;
+    margin:6px 0;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;  /* pointer appear over clickable items */
+}
+
+#btn-edit-show , #btn-add-show, #btn-delete-show, #btn-add , #btn-edit, #btn-delete{
+    width: 20%;
+    height: 27px;
+    margin: 10px;
+    background-color: rgb(35, 236, 35);
+}
+/*
+#btn-add-show{
+    width: 20%;
+    height: 27px;
+    margin: 10px;
+    background-color: rgb(35, 236, 35);
+}
+
+#btn-delete-show{
+    width: 20%;
+    height: 27px;
+    margin: 10px;
+    background-color: rgb(35, 236, 35);
+}  */

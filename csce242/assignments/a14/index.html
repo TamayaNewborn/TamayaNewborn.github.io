@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel ="stylesheet" href = "styles.css">
+        <script src="script.js"></script>
+        <title> Assignment 14 </title>
+    </head>
+    <body>
+        <h1><center> Nostalgic Childhood TV Shows </center></h1>
+        <nav id="main-nav">
+            <div id="nav-toggle">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+             <ul id = "main-nav-items">
+                <button id = "btn-edit"> Edit  </button>
+                <button id = "btn-add"> Add  </button>
+
+                 <!--
+                <li><a href = "#"> Home </a></li>
+                <li><a href = "#"> About </a></li>
+                <li><a href = "#"> Services </a></li>
+                <li><a href = "#"> Bio </a></li>
+                <li><a href = "#"> Contact </a></li>
+            </ul> !-->
+        </nav>
+
+        <div id = "show-list"></div>
+        <div id ="show-forms"> 
+        <div id = "show-details" class = "show-form">
+            <h2> Edit/Delete Show </h2> 
+            <span id = "show-id" class = "hidden"> </span>
+            <p>
+                <label for="txt-name"> TV Show: </label>
+                <input id = "txt-name">
+            </p>
+            <p>
+                <label for="txt-station"> Station: </label>
+                <input id = "txt-station">
+            </p>
+            <p>
+                <label for="txt-seasons"> Seasons: </label>
+                <input id = "txt-seasons">
+            </p>
+            <p>
+                <label for="txt-run-time"> Run Time: </label>
+                <input id = "txt-run-time">
+            </p>
+            <p>
+                <label for="txt-rating"> Rating: </label>
+                <input id = "txt-rating">
+            </p>
+            <button id = "btn-edit-show"> Edit Show </button>
+            <button id = "btn-delete-show"> Delete Show </button>
+        </div>
+        
+        <div id = "add-show" class = "show-form">
+            <h2> Add Show </h2>
+            <p>
+                <label for="txt-add-name"> TV Show: </label>
+                <input id = "txt-add-name">
+            </p>
+            <p>
+                <label for="txt-add-stations"> Station: </label>
+                <input id = "txt-add-stations">
+            </p>
+            <p>
+                <label for="txt-add-seasons"> Seasons: </label>
+                <input id = "txt-add-seasons">
+            </p>
+            <p>
+                <label for="txt-add-run-time"> Run Time: </label>
+                <input id = "txt-add-run-time">
+            </p>
+            <p>
+                <label for="txt-add-rating"> Rating: </label>
+                <input id = "txt-add-rating">
+            </p>
+            <button id = "btn-add-show"> Add Show </button>
+        </div>
+        </div>
+    </body>
+</html>
